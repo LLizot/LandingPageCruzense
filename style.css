@@ -94,3 +94,34 @@ button i {
 button:hover {
     transform: scale(1.05); /* Leve aumento no hover */
 }
+@media (max-width: 768px) {
+    /* Ajustes para dispositivos móveis */
+
+    .overlay-text h1 {
+        font-size: 40px; /* Reduz o tamanho da fonte */
+    }
+
+    .overlay-text p {
+        font-size: 20px; /* Reduz o tamanho da fonte */
+    }
+
+    .overlay-text img {
+        width: 550px; /* Reduz o tamanho da imagem */
+        height: auto; /* Mantém a proporção */
+    }
+
+    .buttons {
+        flex-direction: column; /* Mantém a coluna para dispositivos móveis */
+        gap: 15px; /* Reduz o espaçamento entre os botões */
+    }
+
+    button {
+        width: 200px; /* Ajusta a largura dos botões */
+        height: 50px; /* Ajusta a altura dos botões */
+        font-size: 16px; /* Ajusta o tamanho do texto */
+    }
+
+    button i {
+        font-size: 20px; /* Ajusta o tamanho do ícone */
+    }
+}
