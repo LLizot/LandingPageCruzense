@@ -119,15 +119,15 @@ button:hover {
     /* Ajustes para dispositivos móveis */
 
     .overlay-text h1 {
-        font-size: 40px; /* Reduz o tamanho da fonte */
+        font-size: 25px; /* Reduz o tamanho da fonte */
     }
 
     .overlay-text p {
-        font-size: 20px; /* Reduz o tamanho da fonte */
+        font-size: 15px; /* Reduz o tamanho da fonte */
     }
 
     .overlay-text img {
-        width: 530px; /* Reduz o tamanho da imagem */
+        width: 490px; /* Reduz o tamanho da imagem */
         height: auto; /* Mantém a proporção */
     }
 
