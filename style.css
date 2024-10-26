@@ -2,6 +2,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden; /* Evita o scroll horizontal */
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden; /* Evita o vazamento horizontal da página */
+    font-family: Arial, sans-serif;
+}
+
+.background {
+    width: 100vw; /* Garante que o fundo cubra toda a largura da tela */
+    overflow-x: hidden; /* Evita o scroll horizontal */
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body, html {
@@ -10,13 +30,14 @@ body, html {
 }
 
 .background {
-    background-color: #000080; /* Azul escuro */
+    background-color: #000080; 
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
     height: 100vh;
 }
+
 
 .overlay-text {
     position: absolute;
@@ -106,7 +127,7 @@ button:hover {
     }
 
     .overlay-text img {
-        width: 550px; /* Reduz o tamanho da imagem */
+        width: 530px; /* Reduz o tamanho da imagem */
         height: auto; /* Mantém a proporção */
     }
 
