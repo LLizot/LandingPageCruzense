@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.background {
+    background-color: #000080; /* Azul escuro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 10%;
+    text-align: center;
+    color: white;
+}
+
+.z-symbol {
+    font-size: 600px;
+    color: red; /* Vermelho com transparência */
+    font-weight: bold;
+    position: absolute;
+    top: 450%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0; /* Coloca o "Z" atrás dos botões */
+}
+
+.overlay-text h1 {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.overlay-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Aumentado para dar mais espaço entre os botões */
+    position: relative;
+    z-index: 1;
+}
+
+button {
+    width: 250px; /* Largura do botão */
+    height: 60px; /* Altura do botão */
+    font-size: 18px; /* Tamanho do texto */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: #ffffff; /* Fundo do botão */
+    color: #000080; /* Cor do texto */
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.2s;
+}
+
+button i {
+    font-size: 24px; /* Tamanho do ícone */
+    transition: color 0.2s; /* Transição suave para a cor do ícone */
+}
+
+/* Cores dos ícones */
+.instagram i {
+    color: #f10068; /* Cor do ícone do Instagram */
+}
+.whatsapp i {
+    color: #25D366; /* Cor do ícone do WhatsApp */
+}
+.email i {
+    color: #007BFF; /* Cor do ícone do Email */
+}
+.facebook i {
+    color: #3b5998; /* Cor do ícone do Facebook */
+}
+.site i {
+    color: #4CAF50; /* Cor do ícone do Site */
+}
+
+button:hover {
+    transform: scale(1.05); /* Leve aumento no hover */
+}
+
+
+

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site com Setas e Botões</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="background">
+    <div class="overlay-text">
+      <div class="z-symbol">Z</div>
+      <h1>Bem vindo à Cruzense</h1>
+      <p>Escolha o que deseja acessar</p>
+    </div>
+    <div class="buttons">
+        <button class="instagram" onclick="redirectTo('instagram')">
+          <i class="fab fa-instagram"></i> Instagram
+        </button>
+        <button class="whatsapp" onclick="redirectTo('whatsapp')">
+          <i class="fab fa-whatsapp"></i> WhatsApp
+        </button>
+        <button class="email" onclick="redirectTo('email')">
+          <i class="fas fa-envelope"></i> Email
+        </button>
+        <button class="facebook" onclick="redirectTo('facebook')">
+          <i class="fab fa-facebook"></i> Facebook
+        </button>
+        <button class="site" onclick="redirectTo('site')">
+          <i class="fas fa-globe"></i> Site
+        </button>
+      </div>
+  </div>
+</body>
+</html>
