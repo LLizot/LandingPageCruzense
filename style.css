@@ -37,7 +37,7 @@ body, html {
 
 .overlay-text img {
     /* max-width: 100%; */
-    width: 700px;
+    width: 500px;
     height: 100px;
     height: auto; /* Manter a proporção da imagem */
     margin-top: 50px; /* Adiciona espaço acima da imagem */
