@@ -25,17 +25,6 @@ body, html {
     color: white;
 }
 
-.z-symbol {
-    font-size: 600px;
-    color: red; /* Vermelho com transparência */
-    font-weight: bold;
-    position: absolute;
-    top: 450%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 0; /* Coloca o "Z" atrás dos botões */
-}
-
 .overlay-text h1 {
     margin-top: 10px;
     font-size: 24px;
@@ -44,6 +33,14 @@ body, html {
 .overlay-text p {
     font-size: 18px;
     margin-bottom: 20px;
+}
+
+.overlay-text img {
+    /* max-width: 100%; */
+    width: 900px;
+    height: 100px;
+    height: auto; /* Manter a proporção da imagem */
+    margin-top: 50px; /* Adiciona espaço acima da imagem */
 }
 
 .buttons {
@@ -97,6 +94,3 @@ button i {
 button:hover {
     transform: scale(1.05); /* Leve aumento no hover */
 }
-
-
-
